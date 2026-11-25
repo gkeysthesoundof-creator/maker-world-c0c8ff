@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <!-- Keeps search sites from listing this page. -->
+  <meta name="robots" content="noindex, nofollow">
+  <title>Roman World tool test</title>
+  <link rel="icon" type="image/png" sizes="192x192" href="../icons/icon-192.png">
+  <link rel="stylesheet" href="tooltest.css">
+</head>
+<body>
+  <!-- For a grown-up. Roman never sees this page. Nothing in the game links to it. -->
+  <header>
+    <h1>Roman World tool test</h1>
+    <p>For a grown-up. Open this page on the iPad, wait for the rows to fill in, then tap the red button, and tap the bouncing ball.</p>
+  </header>
+  <main>
+    <table id="rows"></table>
+    <div class="actions">
+      <button id="say" type="button">Tap to hear the voice</button>
+      <span id="say-result"></span>
+    </div>
+    <h2>Phaser (the 2D game engine)</h2>
+    <p>A ball should bounce in the box. Tap the ball and it turns red.</p>
+    <div id="phaser-box"></div>
+    <h2>Drawing canvas</h2>
+    <canvas id="canvas" width="320" height="120"></canvas>
+  </main>
+  <script type="module" src="tooltest.js"></script>
+</body>
+</html>

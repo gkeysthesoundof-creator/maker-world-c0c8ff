@@ -1,0 +1,21 @@
+{
+  "pack_id": "hub-voice-placeholder-01",
+  "pack_type": "voice_lines",
+  "version": 1,
+  "edition": "original",
+  "placeholder": true,
+  "title": "PLACEHOLDER Home Hub Voice",
+  "items": [
+    { "id": "welcome-01", "moment": "welcome", "text": "Hello Roman. You're such a superstar, and the coolest kid in the world." },
+    { "id": "welcome-02", "moment": "welcome", "text": "Hi Roman. I am so happy to see you." },
+    { "id": "name-skin-studio", "moment": "button_name", "target": "skin-studio", "text": "Skin Studio" },
+    { "id": "name-color-lab", "moment": "button_name", "target": "color-lab", "text": "Color Lab" },
+    { "id": "name-puzzle-forge", "moment": "button_name", "target": "puzzle-forge", "text": "Puzzle Forge" },
+    { "id": "name-map-maker", "moment": "button_name", "target": "map-maker", "text": "Map Maker" },
+    { "id": "name-power-up", "moment": "button_name", "target": "power-up", "text": "Power-Up" },
+    { "id": "name-shop", "moment": "button_name", "target": "shop", "text": "Shop" },
+    { "id": "name-gallery", "moment": "button_name", "target": "gallery", "text": "Gallery" },
+    { "id": "name-home", "moment": "button_name", "target": "home", "text": "Home" },
+    { "id": "soon-01", "moment": "coming_soon", "text": "Coming soon. We are still building this one for you." }
+  ]
+}

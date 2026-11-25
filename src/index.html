@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <!-- The game may only load its own files. No other address is allowed. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <!-- Keeps search sites from listing this page. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Roman World">
+  <meta name="format-detection" content="telephone=no">
+  <title>Roman World</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
+  <link rel="stylesheet" href="hub/hub.css">
+</head>
+<body>
+  <main id="stage" class="stage" data-look="loading">
+    <div class="hero">
+      <h1 class="title"><span>Roman</span><span>World</span></h1>
+      <button id="buddy" class="buddy" type="button"></button>
+    </div>
+    <div id="modes" class="modes"></div>
+    <div id="soon" class="soon">
+      <div id="soon-dim" class="soon__dim"></div>
+      <div class="soon__card">
+        <div id="soon-picture" class="soon__picture"></div>
+        <button id="home" class="home" type="button"></button>
+      </div>
+    </div>
+  </main>
+  <button id="door" class="door" type="button"></button>
+  <div id="turn" class="turn" aria-hidden="true"></div>
+  <script type="module" src="hub/hub.js"></script>
+</body>
+</html>

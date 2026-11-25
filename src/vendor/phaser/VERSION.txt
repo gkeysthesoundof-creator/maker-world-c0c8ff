@@ -1,0 +1,8 @@
+Library: Phaser (free 2D web game engine), MIT license
+Version: 4.2.1
+File kept: phaser.min.js (the ready-made single file from the package's dist folder), unchanged
+Source: npm package phaser@4.2.1, downloaded 2026-11-25 with "npm pack" (no install scripts run)
+Package fingerprint (sha512, matches the npm registry): WUNwCPJpdjvZiuT6SgCfYVW8Qw/3j0jJ4ws7P2QkhFLFu74sbGuyHJcbFueGkY/AYO4Pi47bNQXn1OCJeLX//w==
+File fingerprint (sha256 of phaser.min.js): 66348b1b5141e49b7d5ebbe688cddcb502eab1cb00f21c538686a5b2c5abe4de
+Rule: this file is stored inside the project and is never loaded from a remote address.
+To update: download a newer package the same way, replace phaser.min.js, update this note, run tools/make-precache.mjs, run the tests.

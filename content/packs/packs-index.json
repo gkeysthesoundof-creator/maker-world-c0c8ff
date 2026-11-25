@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "packs": [
+    {
+      "file": "hub-voice-placeholder-01.json",
+      "pack_id": "hub-voice-placeholder-01",
+      "pack_type": "voice_lines",
+      "version": 1,
+      "edition": "original",
+      "placeholder": true
+    }
+  ]
+}
